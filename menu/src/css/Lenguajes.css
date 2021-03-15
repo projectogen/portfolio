@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.secctionDiv{
+
+    background: linear-gradient(to bottom, #0b0f12 , #e3e9ed 60%, #0b0f12);
+    
+    min-height: 500px;
+    /* box-shadow: 0 0 10px #a945c7,0 0 40px #a945c7, 0 0 80px #a945c7 ;  */
+    align-items: center;
+    text-align: center;
+    color: #a945c7;
+}
+img{
+    margin: 50px;
+    padding: 5px;
+}
+.slick-arrow {
+    display: none !important;
+}
+.titulo{
+    position: relative;
+    padding: 50px;
+    font-family: consolas;
+    font-size: 230%;
+}
+

@@ -1,8 +1,8 @@
 import React from 'react'
 import Menu from './Menu'
-import './NavbarStyle.css'
+import './css/NavbarStyle.css'
 import imgSlider from './img/imagen.png'
-
+import NeonButton from './NeonButton'
 const NavBAr = () => {
         
     return(
@@ -23,7 +23,7 @@ const NavBAr = () => {
                     
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur quo aliquam animi repellat iusto, accusamus quisquam a nobis minus ut veritatis ipsa fuga nisi excepturi totam dolore, beatae dolorem!
                 </p>
-                <a href="#">Read More</a>
+            <NeonButton />      
             </div>
             <img src={imgSlider} className="image"/>
         </div>

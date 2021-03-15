@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
-import './Style.css'
+import './css/Style.css'
 import img1 from './img/img1.jpg'
 import img2 from './img/img2.jpg'
 import img3 from './img/img3.jpg'
@@ -35,19 +35,22 @@ return(
         <div className="navArea">
             <ul>
                 <li>
-                    <a href="#"  onMouseEnter={() => changeImage(img1)}>Home</a>
+                    <Link to="/" onMouseEnter={() => changeImage(img1)}>Probando</Link>
                 </li>
                 <li>
-                    <a href="#" onMouseEnter={()=> changeImage(img2)}>About</a>
+                    <Link to="/"  onMouseEnter={() => changeImage(img1)}>Home</Link>
                 </li>
                 <li>
-                    <a href="#" onMouseEnter={()=> changeImage(img3)}>Services</a>
+                    <a to="/" onMouseEnter={()=> changeImage(img2)}>About</a>
                 </li>
                 <li>
-                    <a href="#" onMouseEnter={()=> changeImage(img4)}>Portfolio</a>
+                    <a to="/" onMouseEnter={()=> changeImage(img3)}>Services</a>
                 </li>
                 <li>
-                    <a href="#" onMouseEnter={()=> changeImage(img5)}>Team</a>
+                    <a to="/" onMouseEnter={()=> changeImage(img4)}>Portfolio</a>
+                </li>
+                <li>
+                    <a to="/" onMouseEnter={()=> changeImage(img5)}>Team</a>
                 </li>
                 <li>
                     <a href="#" onMouseEnter={()=> changeImage(img6)}>Contact</a>
