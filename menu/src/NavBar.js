@@ -19,10 +19,11 @@ const NavBAr = () => {
         <div className="banner">
             <div className="content">
                 <h2>Responsive header Desing</h2>
-                <p>Projecto gen es una start-up dedicada crear soluciones digitales para quienes lo deseen. Abajo podes encontrar algunos de nuestros trabajos y contactarnos.
+                <h2>PORTFOLIO EN CONSTRUCCIÓN</h2>
+                {/* <p>Projecto gen es una start-up dedicada crear soluciones digitales para quienes lo deseen. Abajo podes encontrar algunos de nuestros trabajos y contactarnos.
                     
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur quo aliquam animi repellat iusto, accusamus quisquam a nobis minus ut veritatis ipsa fuga nisi excepturi totam dolore, beatae dolorem!
-                </p>
+                </p> */}
             <NeonButton />      
             </div>
             <img src={imgSlider} className="image"/>

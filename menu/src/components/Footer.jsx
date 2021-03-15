@@ -1,9 +1,13 @@
 import React from 'react'
 
+
 function Footer() {
     return (
         <>
-            <footer className="blog-footer text-center">
+            <footer className="blog-footer text-center" style={{
+                textAlign: 'center',
+                backgroundColor: '#e3e9ed'
+            }}>
                 
                 <p>
                     Portfolio template built for <strong>Colaboradores</strong> by{" "}
