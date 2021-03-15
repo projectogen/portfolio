@@ -78,53 +78,9 @@ export default function Main() {
             </div>
           </div>
         </section>
+       
 
-        <section>
-          <div className="box">
-            <Parallax x={[-20, 0]}>
-              <h2>Awesome Parrallax Scrolling</h2>
-            </Parallax>
-            <div className="container">
-              <div className="imgBx jarallax">
-                <img src={bg1} className="jarallax-img" />
-              </div>
-              <Parallax y={[0, -200]}>
-                <div className="content" data-jarallax-element="-200 0">
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam esse accusantium beatae cupiditate officiis consequatur
-                    ipsam dolorem non earum porro temporibus sapiente deleniti
-                    inventore quis possimus et, incidunt eum fugit.
-                  </p>
-                </div>
-              </Parallax>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="box">
-            <Parallax x={[0, -20]}>
-              <h2>Awesome Parrallax Scrolling</h2>
-            </Parallax>
-
-            <div className="container">
-              <div className="imgBx jarallax">
-                <img src={bg1} className="jarallax-img" />
-              </div>
-              <Parallax y={[0, -200]}>
-                <div className="content" data-jarallax-element="-200 0">
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam esse accusantium beatae cupiditate officiis consequatur
-                    ipsam dolorem non earum porro temporibus sapiente deleniti
-                    inventore quis possimus et, incidunt eum fugit.
-                  </p>
-                </div>
-              </Parallax>
-            </div>
-          </div>
-        </section>
+        
       </div>
     </>
   );
