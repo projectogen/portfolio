@@ -35,25 +35,22 @@ return(
         <div className="navArea">
             <ul>
                 <li>
-                    <Link to="/" onMouseEnter={() => changeImage(img1)}>Probando</Link>
-                </li>
-                <li>
                     <Link to="/"  onMouseEnter={() => changeImage(img1)}>Home</Link>
                 </li>
                 <li>
-                    <a to="/" onMouseEnter={()=> changeImage(img2)}>About</a>
+                    <Link to="/" onMouseEnter={()=> changeImage(img2)}>About</Link>
                 </li>
                 <li>
-                    <a to="/" onMouseEnter={()=> changeImage(img3)}>Services</a>
+                    <Link to="/" onMouseEnter={()=> changeImage(img3)}>Services</Link>
                 </li>
                 <li>
-                    <a to="/" onMouseEnter={()=> changeImage(img4)}>Portfolio</a>
+                    <Link to="/" onMouseEnter={()=> changeImage(img4)}>Portfolio</Link>
                 </li>
                 <li>
-                    <a to="/" onMouseEnter={()=> changeImage(img5)}>Team</a>
+                    <Link to="/" onMouseEnter={()=> changeImage(img5)}>Team</Link>
                 </li>
                 <li>
-                    <a href="#" onMouseEnter={()=> changeImage(img6)}>Contact</a>
+                    <Link href="#" onMouseEnter={()=> changeImage(img6)}>Contact</Link>
                 </li>
             </ul>
         </div>
