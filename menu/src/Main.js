@@ -20,12 +20,12 @@ export default function Main() {
                 <img className=" jarallax-img" src={proyecto1} />
               </div>
               <Parallax y={[0, -200]}>
-                <div className="content" data-jarallax-element="-200 0">
-                  <p>
-                    TRABAJO REALIZADO PARA EL ESTUDIO DE GRABACION SANTA ESPINA. ESTE FORMA PARTE
-                    DEL PRIMER PROYECTO PAGO, DESPUÉS DE TERMINAR EL CURSO DE REACT EN CODER HOUSE.
-                    LOS DUEÑOS ESTUVIERON A GUSTO LO REALIZADO Y QUEDA PENDIENTE EL SISTEMA PAGO PARA VER
-                    LAS TRANSMISIONES PRIVADAS PAGAS, PARA SUS USUARIOS. 
+                <div className="content" data-jarallax-element="-100 0">
+                  <p>                    
+                    Trabajo realizado para el esudio de grabación Santa Espina.
+                    Este forma parte del primer proyecto pago, después de terminar 
+                    el curso de React js en Coder House. Los dueños estuvieron a gusto con el trabajo
+                    y queda pendiente el sistema pago, para que un usuario pueda ver una transmisión en vivo.
                   </p>
                 </div>
               </Parallax>
@@ -43,12 +43,11 @@ export default function Main() {
                 <img src={proyecto2} className="jarallax-img" />
               </div>
               <Parallax y={[0, -200]}>
-                <div className="content" data-jarallax-element="-200 0">
+                <div className="content" data-jarallax-element="-100 0">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam esse accusantium beatae cupiditate officiis consequatur
-                    ipsam dolorem non earum porro temporibus sapiente deleniti
-                    inventore quis possimus et, incidunt eum fugit.
+                    Este es un juego de cartas, con ataques, defensas y escudos. 
+                    Realizado en el marco de un desafío presentado por una empresa lider en el mercado.
+                    El mismo se finalizo a tiempo, usando una api perteneciente a la misma empresa.
                   </p>
                 </div>
               </Parallax>
@@ -66,12 +65,12 @@ export default function Main() {
                 <img src={proyecto1} className="jarallax-img" />
               </div>
               <Parallax y={[0, -200]}>
-                <div className="content" data-jarallax-element="-200 0">
+                <div className="content" data-jarallax-element="-100 0">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam esse accusantium beatae cupiditate officiis consequatur
-                    ipsam dolorem non earum porro temporibus sapiente deleniti
-                    inventore quis possimus et, incidunt eum fugit.
+                  Trabajo realizado para el esudio de grabación Santa Espina.
+                    Este forma parte del primer proyecto pago, después de terminar 
+                    el curso de React js en Coder House. Los dueños estuvieron a gusto con el trabajo
+                    y queda pendiente el sistema pago, para que un usuario pueda ver una transmisión en vivo.
                   </p>
                 </div>
               </Parallax>
