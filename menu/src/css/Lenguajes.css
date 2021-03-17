@@ -6,7 +6,7 @@
 
 .secctionDiv{
 
-    background: linear-gradient(to bottom, #0b0f12 , #e3e9ed 60%, #0b0f12);
+    background: linear-gradient(to bottom, #0b0f12 , #7d7f7d 60%, #0b0f12);
     
     min-height: 500px;
     /* box-shadow: 0 0 10px #a945c7,0 0 40px #a945c7, 0 0 80px #a945c7 ;  */
@@ -22,6 +22,7 @@ img{
     display: none !important;
 }
 .titulo{
+    color: white;
     position: relative;
     padding: 50px;
     font-family: consolas;

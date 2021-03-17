@@ -11,7 +11,7 @@ const NeonButton = () =>{
                 <span id="span2"></span>
                 <span id="span3"></span>
                 <span id="span4"></span>
-                Botón Neon
+                BUILDING
             </Link>
         </>
 

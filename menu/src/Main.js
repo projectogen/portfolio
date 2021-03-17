@@ -22,10 +22,10 @@ export default function Main() {
               <Parallax y={[0, -200]}>
                 <div className="content" data-jarallax-element="-200 0">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Totam esse accusantium beatae cupiditate officiis consequatur
-                    ipsam dolorem non earum porro temporibus sapiente deleniti
-                    inventore quis possimus et, incidunt eum fugit.
+                    TRABAJO REALIZADO PARA EL ESTUDIO DE GRABACION SANTA ESPINA. ESTE FORMA PARTE
+                    DEL PRIMER PROYECTO PAGO, DESPUÉS DE TERMINAR EL CURSO DE REACT EN CODER HOUSE.
+                    LOS DUEÑOS ESTUVIERON A GUSTO LO REALIZADO Y QUEDA PENDIENTE EL SISTEMA PAGO PARA VER
+                    LAS TRANSMISIONES PRIVADAS PAGAS, PARA SUS USUARIOS. 
                   </p>
                 </div>
               </Parallax>
