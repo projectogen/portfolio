@@ -1,8 +1,9 @@
 import React from 'react'
 import Menu from './Menu'
-import './css/NavbarStyle.css'
-import imgSlider from './img/imagen.png'
+import '../css/NavbarStyle.css'
+import imgSlider from '../img/imagen.png'
 import NeonButton from './NeonButton'
+
 const NavBAr = () => {
         
     return(

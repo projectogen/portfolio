@@ -2,15 +2,16 @@ import React, {Component} from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import './css/Lenguajes.css'
-import html from './img/html.png'
-import css from './img/css-3.png'
-import js from './img/java-script.png'
-import php from './img/php.png'
-import python from './img/python.png'
-import mysql from './img/mysql.png'
-import react from './img/atom.png'
-import github from './img/github.png'
+import '../css/Lenguajes.css'
+import html from '../img/html.png'
+import css from '../img/css-3.png'
+import js from '../img/java-script.png'
+import php from '../img/php.png'
+import python from '../img/python.png'
+import mysql from '../img/mysql.png'
+import react from '../img/atom.png'
+import github from '../img/github.png'
+
 const Lenguaje = () =>  {
 
     const settings = {

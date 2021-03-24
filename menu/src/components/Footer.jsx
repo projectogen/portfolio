@@ -6,7 +6,9 @@ function Footer() {
         <>
             <footer className="blog-footer text-center" style={{
                 textAlign: 'center',
-                backgroundColor: '#e3e9ed'
+                backgroundColor: '#4F5450',
+                color: '#fff',
+                
             }}>
                 
                 <p>

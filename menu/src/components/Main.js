@@ -1,9 +1,7 @@
 import { Parallax } from "react-scroll-parallax";
-//import { Parallax } from 'react-parallax'
-import "./css/ParallaxStyles.css";
-import bg1 from "./img/bg1.jpg";
-import proyecto1 from "./img/proyecto1.jpeg";
-import proyecto2 from "./img/proyecto2.jpeg";
+import "../css/ParallaxStyles.css"
+import proyecto1 from "../img/proyecto1.jpeg"
+import proyecto2 from "../img/proyecto2.jpeg"
 
 export default function Main() {
   return (

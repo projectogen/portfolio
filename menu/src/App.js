@@ -1,18 +1,17 @@
-import Menu from './Menu'
-import NavBAr from './NavBar';
+import NavBAr from './components/NavBar';
 import {BrowserRouter as Router} from 'react-router-dom'
-import Lenguajes from './Lenguajes'
-import Main from './Main'
+import Lenguajes from './components/Lenguajes'
+import Main from './components/Main'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Footer from './components/Footer';
-
+import CardPersonal from './components/CardPersonal'
 
     function App() {
         return (
             <>
                 <Router>
                     <NavBAr/>
-                    
+                    <CardPersonal/>
                     <Lenguajes/>
                     
                     <ParallaxProvider>

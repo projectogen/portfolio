@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-
 .secctionDiv{
-
     background: linear-gradient(to bottom, #0b0f12 , #7d7f7d 60%, #0b0f12);
     
     min-height: 500px;
