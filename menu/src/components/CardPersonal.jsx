@@ -16,7 +16,7 @@ const CardPersonal = () =>  {
                     </p>
                     <a href="#">Read More</a>
                 </div>
-                <img src={nathan}/>
+                <img className="avatar" src={nathan}/>
             
             </div>
     
@@ -28,7 +28,7 @@ const CardPersonal = () =>  {
                     </p>
                     <a href="#">Read More</a>
                 </div>
-                <img src={sam}/>
+                <img className="avatar" src={sam}/>
             </div>
         </div>
     </>    
