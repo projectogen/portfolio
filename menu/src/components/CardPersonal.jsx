@@ -1,6 +1,6 @@
 import React from 'react'
-import nathan from '../img/nathan.png'
-import sam from '../img/sam.png'
+import federico from '../img/federico.png'
+import leandro from '../img/leandro.png'
 import '../css/CardPersonal.css'
 
 const CardPersonal = () =>  {
@@ -16,7 +16,7 @@ const CardPersonal = () =>  {
                     </p>
                     <a href="#">Read More</a>
                 </div>
-                <img className="avatar" src={nathan}/>
+                <img className="avatar" src={federico}/>
             
             </div>
     
@@ -28,7 +28,7 @@ const CardPersonal = () =>  {
                     </p>
                     <a href="#">Read More</a>
                 </div>
-                <img className="avatar" src={sam}/>
+                <img className="avatar" src={leandro}/>
             </div>
         </div>
     </>    

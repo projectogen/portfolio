@@ -25,11 +25,8 @@ const Lenguaje = () =>  {
         <div className="secctionDiv">
             <h1 className="titulo">Lenguajes trabajados</h1>
  
-               
-                
-
-            <Slider {...settings}>                
-                { imgObj.map(obj => <ImgCarousel key={obj.name} urlImg={obj.id} />) }                
+            <Slider className="lengIcon" {...settings}>                
+                { imgObj.map(obj => <ImgCarousel key={obj.name} urlImg={obj.id}  />) }                
 
             </Slider>
         </div>

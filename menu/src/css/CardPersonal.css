@@ -73,7 +73,7 @@
   }
   .container .card:hover img {
     left: 50%;
-    height: 350px;
+    height: 450px;
   }
   .container .card .content{
     width: 100%;
@@ -90,6 +90,10 @@
   .container .card{
     margin: 40px 20px;
   }
+
+  .slick-slider{
+    width: 200%;
+  }  
 }
 
 @media (max-width: 420px){
@@ -102,3 +106,4 @@
     height: 300px;
   }
 }
+

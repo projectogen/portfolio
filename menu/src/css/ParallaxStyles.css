@@ -78,3 +78,9 @@ section .container .parallax-outer .parallax-inner {
 section:nth-child(even) .container .parallax-outer .parallax-inner {
   left: 0;
 }
+
+@media (max-width: 460px){
+  .body{
+    height: 100%;
+  }
+}
