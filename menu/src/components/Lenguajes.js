@@ -17,7 +17,7 @@ const Lenguaje = () =>  {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 13,
+        slidesToShow: 12,
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
@@ -31,22 +31,22 @@ const Lenguaje = () =>  {
             <h1 className="titulo">Lenguajes trabajados</h1>
                 <Slider {...settings}>
                 
-                    <img src={html}/>
-                    <img src={css}/>
-                    <img src={js}/>
-                    <img src={php}/>
-                    <img src={python}/>
-                    <img src={mysql}/>
-                    <img src={react}/>
+                    <img className="lengIcon" src={html}/>
+                    <img className="lengIcon" src={css}/>
+                    <img className="lengIcon" src={js}/>
+                    <img className="lengIcon" src={php}/>
+                    <img className="lengIcon" src={python}/>
+                    <img className="lengIcon" src={mysql}/>
+                    <img className="lengIcon" src={react}/>
                 
-                    <img src={github}/>
-                    <img src={css}/>
-                    <img src={js}/>
-                    <img src={php}/>
-                    <img src={python}/>
-                    <img src={mysql}/>
-                    <img src={react}/>
-                    <img src={php}/>
+                    <img className="lengIcon" src={github}/>
+                    <img className="lengIcon" src={css}/>
+                    <img className="lengIcon" src={js}/>
+                    <img className="lengIcon" src={php}/>
+                    <img className="lengIcon" src={python}/>
+                    <img className="lengIcon" src={mysql}/>
+                    <img className="lengIcon" src={react}/>
+                    <img className="lengIcon" src={php}/>
                 
             </Slider>
         </div>

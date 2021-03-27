@@ -8,7 +8,8 @@ function Footer() {
                 textAlign: 'center',
                 backgroundColor: '#4F5450',
                 color: '#fff',
-                
+                minHeight: '500px'
+
             }}>
                 
                 <p>

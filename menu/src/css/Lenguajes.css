@@ -22,3 +22,18 @@
     font-size: 230%;
 }
 
+@media (max-width: 900px){
+    
+    .secctionDiv{
+        min-height: 400px;
+    }
+
+    .lengIcon{
+        
+        margin: 40px 10px 10px 10px;
+        min-width: 100px;
+        padding: 0px 30px 10px ;
+    }
+
+
+}
