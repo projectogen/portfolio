@@ -2,6 +2,7 @@ import { Parallax } from "react-scroll-parallax";
 import "../css/ParallaxStyles.css"
 import proyecto1 from "../img/proyecto1.jpeg"
 import proyecto2 from "../img/proyecto2.jpeg"
+import proyecto3 from "../img/proyecto3.png"
 
 export default function Main() {
   return (
@@ -11,7 +12,7 @@ export default function Main() {
         <section>
           <div className="box">
             <Parallax x={[0, -20]}>
-              <h2>Awesome Parrallax Scrolling</h2>
+              <h2>www.estudiosantaespina.com</h2>
             </Parallax>
             <div className="container">
               <div className="imgBx jarallax">
@@ -34,7 +35,7 @@ export default function Main() {
         <section>
           <div className="box">
             <Parallax x={[-20, 0]}>
-              <h2>Awesome Parrallax Scrolling</h2>
+              <h2>Juego Desafío Bons</h2>
             </Parallax>
             <div className="container">
               <div className="imgBx jarallax">
@@ -56,11 +57,11 @@ export default function Main() {
         <section>
           <div className="box">
             <Parallax x={[0, -20]}>
-              <h2>Awesome Parrallax Scrolling</h2>
+              <h2>https://www.kupanaka.com.ar/</h2>
             </Parallax>
             <div className="container">
               <div className="imgBx jarallax">
-                <img src={proyecto1} className="jarallax-img" />
+                <img src={proyecto3} className="jarallax-img" />
               </div>
               <Parallax y={[0, -200]}>
                 <div className="content" data-jarallax-element="-100 0">
