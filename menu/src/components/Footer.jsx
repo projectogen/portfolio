@@ -1,22 +1,15 @@
 import React from 'react'
-
+import '../css/Footer.css'
 
 function Footer() {
     return (
-        <>
-            <footer className="blog-footer text-center" style={{
-                textAlign: 'center',
-                backgroundColor: '#4F5450',
-                color: '#fff',
-                minHeight: '500px'
-
-            }}>
-                
-                <p>
+        <div className="blog-footer"> 
+            
+                <p className="contacto">
                     Portfolio template built for <strong>Colaboradores</strong> by{" "}
                     <strong>@mdo</strong>.
                 </p>
-                <p>
+                <p className="contacto">
                     <label>Contacto Email: </label>
                     <a href="#">lssuasnabar@gmail.com</a>
                     <br />
@@ -24,8 +17,8 @@ function Footer() {
                     <a href="#">federicoaosandon@gmail.com</a>
                 </p>                    
                 
-            </footer>
-        </>
+            
+        </div>
     )
 }
 

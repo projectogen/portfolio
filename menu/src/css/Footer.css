@@ -1,0 +1,21 @@
+*{
+    text-decoration: none;
+}
+blog-footer{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: #f60c0c;
+    color: #f60c0c;
+    min-height: 15px;
+}
+
+.contacto{
+    font-family: consolas;
+    color: lawngreen;
+}
+
+.contacto a{
+    font-family: consolas;
+    color: green;
+}
