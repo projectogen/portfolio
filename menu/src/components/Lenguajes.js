@@ -21,6 +21,10 @@ const Lenguaje = () =>  {
         rtl: false
       }   
 
+      if(window.screen.width<=767){
+          settings.slidesToShow= 3
+      }
+      console.log( "pantalla ancho: ",(window.screen.width))
     return(
         <div className="secctionDiv">
             <h1 className="titulo">Lenguajes trabajados</h1>

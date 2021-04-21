@@ -36,6 +36,21 @@
     }
     .slick-slider{
         width: 200%;
-      }
+    }
+
+}
+
+@media (max-width: 767px){
+    .slick-slide{
+        max-width: 100px  !important;
+    }
+
+    .lengIcon{
+        
+        margin: 10px 0px 10px 0px;
+        min-width: 120px;
+        padding: 0px 0px 0px ;
+    }
+
 
 }
