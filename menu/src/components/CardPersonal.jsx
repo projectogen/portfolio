@@ -1,5 +1,5 @@
 import React from 'react'
-import federico from '../img/federico.png'
+import federico from '../img/fede.png'
 import leandro from '../img/leandro.png'
 import '../css/CardPersonal.css'
 
@@ -14,7 +14,7 @@ const CardPersonal = () =>  {
                     <p>
                     Lorem impun dolor ajjkkzkmnsd sj ssadkjsd sdfksd fskdf sdf isdf sdisdf sdfos sf s fsisfkjnasd fosdsdf sdfinnsdf sdfsd di dij sdi fsdif sdif sdif sdh sdi sdfgsdi ggasdashd asd hha soiasgf iadhf iuahdf oahdf 
                     </p>
-                    <a href="#">Read More</a>
+                    <a href="#">VER CV</a>
                 </div>
                 <img className="avatar" src={federico}/>
             
@@ -26,7 +26,7 @@ const CardPersonal = () =>  {
                     <p>
                     Lorem impun dolor ajjkkzkmnsd sj ssadkjsd sdfksd fskdf sdf isdf sdisdf sdfos sf s fsisfkjnasd fosdsdf sdfinnsdf sdfsd di dij sdi fsdif sdif sdif sdh sdi sdfgsdi ggasdashd asd hha soiasgf iadhf iuahdf oahdf 
                     </p>
-                    <a href="#">Read More</a>
+                    <a href="#">VER CV</a>
                 </div>
                 <img className="avatar" src={leandro}/>
             </div>

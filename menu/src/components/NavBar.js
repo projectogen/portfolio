@@ -3,13 +3,16 @@ import Menu from './Menu'
 import '../css/NavbarStyle.css'
 import imgSlider from '../img/imagen.png'
 import NeonButton from './NeonButton'
+import Logo from '../components/Logo'
 
 const NavBAr = () => {
         
     return(
         <>
         <header>
-            <a href="#" className="logo">Logo</a>
+            <a href="#" className="logo" >
+                <Logo />
+            </a>
             
             <div className="search">
                 <input type="text" placeholder="Search"/>
